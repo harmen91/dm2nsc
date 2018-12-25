@@ -77,7 +77,7 @@ def convert_nightscout(entries, start_time=None):
 			dat.update({
 				"eventType": "BG Check",
 				"glucose": glucose,
-				"glucoseType": "Finger",
+				"glucoseType": "Sensor",
 				"units": "mg/dL"
 			})
 
